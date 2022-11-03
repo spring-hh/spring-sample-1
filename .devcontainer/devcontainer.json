@@ -2,6 +2,6 @@
   "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
   "service": "web",
   "workspaceFolder": "/code",
-  "extensions": ["GitHub.copilot", "vscjava.vscode-gradle"],
+  "extensions": ["GitHub.copilot", "vscjava.vscode-gradle", "editorconfig.editorconfig"],
   "remoteUser": "vscode"
 }
