@@ -1,6 +1,6 @@
 FROM amazonlinux:2
 
-RUN yum install -y shadow-utils tar gzip sudo
+RUN yum install -y shadow-utils tar gzip sudo git
 RUN adduser vscode
 RUN echo 'vscode ALL=(ALL:ALL) NOPASSWD: ALL' >> /etc/sudoers
 
