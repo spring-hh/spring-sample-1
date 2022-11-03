@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  web:
+    command: /sbin/init
+    ports:
+      - "8080:8080"
