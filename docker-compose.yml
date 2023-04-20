@@ -16,8 +16,7 @@ services:
 
   web:
     build: .
-    privileged: true
-    command: /sbin/init
+    command: sleep infinity
     volumes:
       - .:/code
     ports:
